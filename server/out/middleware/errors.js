@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.error500 = exports.error404 = void 0;
 exports.error404 = function (req, res, next) {
     console.log('req.url: ', req.url);
     var err = new Error('Not found');
